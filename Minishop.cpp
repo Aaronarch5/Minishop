@@ -20,9 +20,9 @@ int main()
     
     
     cout<<"Introduzca que producto quiere comprar: "<<endl;
-    cin<<numeroproducto;
+    cin>>numeroproducto;
     cout<<"Introduzca cuantas piezas quiere comprar"<<endl;
-    cin<<cantidadvendida;
+    cin>>cantidadvendida;
     
     
 }
