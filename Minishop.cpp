@@ -2,9 +2,11 @@
 // Programación Orientada a Objetos
 
 #include <iostream>
-
+#include <clocale>
+using namespace std;
 int main()
 {
+ 
     cout<<"Mini punto de venta Guerrero-Hernandez"<<endl;
     
     float producto1{2.98};
