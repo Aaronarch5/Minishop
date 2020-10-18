@@ -5,6 +5,11 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    float producto1{};
+    float producto2{};
+    float producto3{};
+    float producto4{};
+    
+    cout<<"C++ Proyecto"<<endl;
 }
 
