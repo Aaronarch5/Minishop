@@ -35,15 +35,15 @@ int main()
 	///////////////////////////////////////////////////////////	
 	cout<<"Listado de productos: "<<endl; 
 	cout<<"-------------------------------------------"<<endl;
-	cout<<"Producto 1: "<<producto1<<endl;
+	cout<<"Producto 1: $"<<producto1<<endl;
 	cout<<" "<<endl;
-	cout<<"Producto 2: "<<producto2<<endl;
+	cout<<"Producto 2: $"<<producto2<<endl;
 	cout<<" "<<endl;
-	cout<<"Producto 3: "<<producto3<<endl;
+	cout<<"Producto 3: $"<<producto3<<endl;
 	cout<<" "<<endl;
-	cout<<"Producto 4: "<<producto4<<endl;
+	cout<<"Producto 4: $"<<producto4<<endl;
 	cout<<" "<<endl;
-	cout<<"Producto 5: "<<producto5<<endl;
+	cout<<"Producto 5: $"<<producto5<<endl;
 	cout<<" "<<endl;
 	/**
 	Imprime el listado de cada uno de los productos disponibles en el almacén con su respectico precio
@@ -140,7 +140,6 @@ do //Sentencia do-while para que ejecute las siguientes lineas hasta que el usua
 	cout<<" "<<endl; //Se imprime un renglón vacío
 	
 	total=subsuma1+subsuma2+subsuma3+subsuma4+subsuma5; //En la variable total se suman los subtotales de cada producto
-	cout<<"El total es: "<<total<<endl; //Se imprime al final del ticket cual es el valor total de la compra
+	cout<<"El total es: $"<<total<<endl; //Se imprime al final del ticket cual es el valor total de la compra
 }
-
 
